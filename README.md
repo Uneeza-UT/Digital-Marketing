@@ -1,6 +1,8 @@
-# Digital Marketing Platform
+# Digital Marketing Platform – Backend API
 
-A full-stack digital marketing platform designed for agencies to showcase services, manage client inquiries, and schedule consultations through a conversion-focused interface.
+This is a RESTful backend API built using ASP.NET Core and Entity Framework Core for a digital marketing platform. The API handles consultation form submissions, user authentication, and CMS data management.
+
+It stores and manages client consultation requests in an Azure SQL Database and provides secure access through JWT-based authentication.
 
 ---
 
@@ -13,40 +15,24 @@ A full-stack digital marketing platform designed for agencies to showcase servic
 
 ## Features
 
-- Modern responsive landing page
-- Service and portfolio showcase
-- Client consultation scheduling system
-- Admin CMS for managing:
-  - Clients
-  - Services
-  - Consultations
-  - Employees
-- Secure authentication system (JWT)
-- Clean and scalable architecture
+- JWT Authentication (Login/Register)
+- Role-based access (Admin / Client)
+- Consultation form submission handling
+- CMS functionality for managing leads
+- Azure SQL Database integration
+- Entity Framework Core for data access
+- RESTful API architecture
 
 ---
 
 ## Tech Stack
 
-### Frontend
-- React
-- Tailwind CSS
-- Vite
-
 ### Backend
 - ASP.NET Core Web API
 - Entity Framework Core
-- SQL Server
+- Azure SQL Database
 - JWT Authentication
-
-
----
-
-## 📁 Project Structure
-
-digital-marketing-platform/
-├── frontend/ # React application
-├── backend/ # ASP.NET Core API
+- C#
 
 
 ---
@@ -89,6 +75,5 @@ Full-Stack Developer (React + ASP.NET Core)
 
 ## Connect with me
 
-- 💻 [GitHub](https://github.com/Uneeza-UT/digital-marketing-platform)
-- 🎨 {Behance Case Study}(https://www.behance.net/gallery/248346583/Digital-Marketing-Platform-Website-CMS)
+- 💻 [GitHub](https://github.com/Uneeza-UT/Digital Marketing)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/uneeza-tukassar-53b4a01a3/)
