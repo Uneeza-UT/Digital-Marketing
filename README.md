@@ -6,13 +6,6 @@ It stores and manages client consultation requests in an Azure SQL Database and 
 
 ---
 
-## Project Status
-
-🚧 Deployment: In progress  
-🌐 Live Demo: Coming soon
-
----
-
 ## Features
 
 - JWT Authentication (Login/Register)
